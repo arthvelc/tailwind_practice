@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  },
+  "scripts": {
+    "start": "live-server public",
+    "build": "postcss css/tailwind.css -o public/css/style.css"
+  }
+}

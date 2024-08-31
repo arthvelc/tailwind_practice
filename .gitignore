@@ -1,0 +1,13 @@
+# Ignorar directorio de paquetes de npm
+/node_modules
+
+# Ignorar archivos de bloqueo de paquetes de npm
+/package-lock.json
+/yarn.lock
+
+# Ignorar directorio de distribución de Tailwind CSS
+/public/css
+
+# Ignorar archivos de configuración de Tailwind CSS
+/tailwind.config.js
+/postcss.config.js
