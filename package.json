@@ -4,6 +4,11 @@
   },
   "scripts": {
     "start": "live-server public",
-    "build": "postcss css/tailwind.css -o public/css/style.css"
+    "build:css": "tailwindcss -i ./public/css/style.css -o ./public/css/style.css --watch"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "live-server": "^1.2.2",
+    "postcss-cli": "^11.0.0"
   }
 }
